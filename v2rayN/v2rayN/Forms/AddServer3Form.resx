@@ -171,31 +171,25 @@
     <value>0</value>
   </data>
   <data name="cmbSecurity.Items" xml:space="preserve">
-    <value>aes-256-cfb</value>
-  </data>
-  <data name="cmbSecurity.Items1" xml:space="preserve">
-    <value>aes-128-cfb</value>
-  </data>
-  <data name="cmbSecurity.Items2" xml:space="preserve">
-    <value>chacha20</value>
-  </data>
-  <data name="cmbSecurity.Items3" xml:space="preserve">
-    <value>chacha20-ietf</value>
-  </data>
-  <data name="cmbSecurity.Items4" xml:space="preserve">
     <value>aes-256-gcm</value>
   </data>
-  <data name="cmbSecurity.Items5" xml:space="preserve">
+  <data name="cmbSecurity.Items1" xml:space="preserve">
     <value>aes-128-gcm</value>
   </data>
-  <data name="cmbSecurity.Items6" xml:space="preserve">
+  <data name="cmbSecurity.Items2" xml:space="preserve">
     <value>chacha20-poly1305</value>
   </data>
-  <data name="cmbSecurity.Items7" xml:space="preserve">
+  <data name="cmbSecurity.Items3" xml:space="preserve">
     <value>chacha20-ietf-poly1305</value>
   </data>
+  <data name="cmbSecurity.Items4" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="cmbSecurity.Items5" xml:space="preserve">
+    <value>plain</value>
+  </data>
   <data name="cmbSecurity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 120</value>
+    <value>127, 123</value>
   </data>
   <data name="cmbSecurity.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 20</value>
@@ -240,7 +234,7 @@
     <value>True</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 158</value>
+    <value>12, 155</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 12</value>
@@ -291,7 +285,7 @@
     <value>4</value>
   </data>
   <data name="txtId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 85</value>
+    <value>127, 91</value>
   </data>
   <data name="txtId.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
     <value>*</value>
@@ -318,7 +312,7 @@
     <value>True</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 89</value>
+    <value>12, 93</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 12</value>
@@ -342,7 +336,7 @@
     <value>6</value>
   </data>
   <data name="txtPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 56</value>
+    <value>127, 59</value>
   </data>
   <data name="txtPort.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 21</value>
@@ -366,7 +360,7 @@
     <value>True</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 60</value>
+    <value>12, 62</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 12</value>
@@ -601,6 +595,6 @@
     <value>AddServer3Form</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>v2rayN.Forms.BaseForm, v2rayN, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>v2rayN.Forms.BaseServerForm, v2rayN, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
 </root>
